@@ -37,14 +37,61 @@
 
 // objects
 
-const profile: { name: string, age: number, contact: number, Graduate: boolean } = {
-    name: "Abdullah",
-    age: 20,
-    contact: +923178937641,
-    Graduate: false
-}
-console.log(profile);
+// const profile: { name: string, age: number, contact: number, Graduate: boolean } = {
+//     name: "Abdullah",
+//     age: 20,
+//     contact: +923178937641,
+//     Graduate: false
+// }
+// console.log(profile);
 
+// type name = string;
+// const userName:name = 30
+// console.log(userName);
+// const userName:name = "Abdullah"
+
+
+
+// type User = {
+//     fullname: string
+//     age: number
+//     isLoggedIn: boolean
+//     greetUser: () => string
+//     lastname?: string
+// }
+// const user:User = {
+//     fullname : "Abdullah",
+//     age: 20,
+//     isLoggedIn:true,
+//     greetUser: function (){
+//         return `hello this is my ${this.fullname}`
+//     }
+// }
+
+// console.log(user);
+
+
+
+
+// type Fruit = (string | number)[]
+
+// const fruits:Fruit = ['apple' , 22 ] 
+
+
+
+
+//-----Union Type-----//
+
+// type User = string | number | boolean
+
+// const user:User[] = []
+// console.log(user);
+
+
+// type Fruits = (string | number | boolean)
+
+// const fruits:Fruits[]  = ["SAda" , 21  ,true ]
+// console.log(fruits);
 
 
 
